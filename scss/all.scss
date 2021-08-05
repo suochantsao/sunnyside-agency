@@ -1,2 +1,10 @@
-@import "_reset.scss";
-@import "_index.scss";
+@import "reset";
+@import "mixin";
+@import "index";
+
+body {
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
